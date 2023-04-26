@@ -35,6 +35,7 @@ ENDFORM.
 *& <--  p2        text
 *&---------------------------------------------------------------------*
 FORM process .
+  "Thanhnt
   CALL FUNCTION 'SPTA_PARA_PROCESS_START_2'
     EXPORTING
       server_group             = 'RFCGROUP'
