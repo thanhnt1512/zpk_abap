@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMT_PROXY_IN</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZMT_PROXY_IN</OBJ_NAME_M>
+     <HASH_ID>9F3C6A4BEEB560E1F9BF301A6C39B4B401F648E5</HASH_ID>
+     <ID>&lt;message&gt; MT_PROXY_IN urn:SAP:TEST_ABAP_PROXY urn:SAP:TEST_ABAP_PROXY</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>MT_PROXY_IN</IFR_NAME>
+     <IFR_NSPCE>urn:SAP:TEST_ABAP_PROXY</IFR_NSPCE>
+     <IFR_GNSPCE>urn:SAP:TEST_ABAP_PROXY</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <X-ML_NSPCE>urn:SAP:TEST_ABAP_PROXY</X-ML_NSPCE>
+     <X-ML_NAME>MT_PROXY_IN</X-ML_NAME>
+     <VERSION_ID>9e26d8b4c23911ed95a90000016c85c6</VERSION_ID>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMT_PROXY_IN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MT_PROXY_IN</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MT_PROXY_IN</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZDT_PROXY_IN</OBJ_NAME_R>
+     <ID>&lt;part&gt; MT_PROXY_IN &lt;message&gt; MT_PROXY_IN urn:SAP:TEST_ABAP_PROXY urn:SAP:TEST_ABAP_PROXY</ID>
+     <IFR_TYPE>part</IFR_TYPE>
+     <IFR_NAME>MT_PROXY_IN</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MT_PROXY_IN</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZMT_PROXY_IN</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZMT_PROXY_IN</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZMT_PROXY_IN</OBJ_NAME2>
+     <ID>&lt;message&gt; MT_PROXY_IN urn:SAP:TEST_ABAP_PROXY urn:SAP:TEST_ABAP_PROXY</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>MT_PROXY_IN</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZMT_PROXY_IN</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

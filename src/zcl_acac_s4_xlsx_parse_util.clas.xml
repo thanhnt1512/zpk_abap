@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ACAC_S4_XLSX_PARSE_UTIL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Utility Class for Parsing xlsx File</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ACAC_S4_XLSX_PARSE_UTIL</CLSNAME>
+     <CMPNAME>TRANSFORM_XSTRING_2_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>transform xstring to internal table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ACAC_S4_XLSX_PARSE_UTIL</CLSNAME>
+     <CMPNAME>VALIDATE_FIELD_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>check length,date, amount for fields</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

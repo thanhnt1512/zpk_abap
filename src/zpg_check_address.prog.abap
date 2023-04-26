@@ -1,0 +1,19 @@
+*&---------------------------------------------------------------------*
+*& Report ZPG_CHECK_ADDRESS
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT ZPG_CHECK_ADDRESS.
+DATA :LT_BUT021_FS TYPE TABLE OF BUT021_FS,
+      LT_ADRC TYPE TABLE OF ADRC.
+
+SELECT * FROM ADRC INTO CORRESPONDING FIELDS OF TABLE LT_ADRC WHERE CITYP_CODE <> ''.
+SELECT * FROM BUT021_FS INTO CORRESPONDING FIELDS OF TABLE LT_BUT021_FS.
+
+LOOP AT LT_BUT021_FS INTO DATA(LS_BUT021_FS).
+ READ TABLE LT_ADRC INTO DATA(LS_ADRC) WITH KEY ADDRNUMBER = LS_BUT021_FS-ADDRNUMBER.
+ IF LS_ADRC IS NOT INITIAL.
+   WRITE : / LS_BUT021_FS-ADDRNUMBER.
+   CLEAR LS_ADRC.
+ ENDIF.
+ENDLOOP.

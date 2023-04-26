@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ZFG_ACAC_TEST</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_ACAC_TESTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_ACAC_TEST</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_ACAC_S4_EXCEL_UPLOAD</FUNCNAME>
+     <SHORT_TEXT>Upload Excel</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_FILENAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>CX_OPENXML_FORMAT</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>CX_OPENXML_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_FILENAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>file name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CX_OPENXML_FORMAT</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Packaging Error - Invalid Content</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CX_OPENXML_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Part not found</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+     <EXCEPTION_CLASSES>X</EXCEPTION_CLASSES>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
